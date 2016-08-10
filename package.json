@@ -1,0 +1,27 @@
+{
+  "name": "cson-parser",
+  "main": "./index.coffee",
+  "version": "0.1.0",
+  "description": "Convert JSON to CSON, and vice versa",
+  "keywords": [
+    "JSON",
+    "CSON",
+    "convert",
+    "parser",
+    "json2cson",
+    "cson2json"
+  ],
+  "homepage": "https://github.com/MrDallOca/cson-parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrDallOca/cson-parser"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cson": "~3.0.2",
+    "json-beautify": "1.0.1"
+  },
+  "engines": {
+    "atom": "1.*"
+  }
+}
